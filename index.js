@@ -1,4 +1,4 @@
-var obj = {'prop': 1}; //declare and initialize object
+var receipes = {}
 
 function updateObjectWithKeyAndValue(obj, key, value) { 
   var newObj = Object.assign ({}, obj,{[key]:value});
