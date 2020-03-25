@@ -1,4 +1,4 @@
-var receipes = {}
+var receipes = {};
 
 function updateObjectWithKeyAndValue(obj, key, value) { 
   var newObj = Object.assign ({}, obj,{[key]:value});
@@ -6,7 +6,6 @@ function updateObjectWithKeyAndValue(obj, key, value) {
   
 }
 
-destructivelyUpdateObjectWithKeyAndValue (obj, 'prop2', 1);
 
 
 
